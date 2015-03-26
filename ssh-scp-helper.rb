@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'colorize'
+require 'colorize'	#gem install colorize
 
 LOCAL_PORT = 8080
 
