@@ -52,7 +52,7 @@ def loadInternal
 	items = Array.new
 
 	items.push(Host.new("Some server #1", "192.168.1.1"))
-	items.push(Host.new("Some server #2", "192.168.1.2"))
+	items.push(Host.new("Some server #2", "192.168.1.2").setPassword("somepassword"))
 
 	items.each do |i| 
 		i.name = i.ip + "\t - " + i.name
