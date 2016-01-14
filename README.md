@@ -1,2 +1,2 @@
 # scripts
-Repository with personal scripts in Bash and Ruby
+Repository with my personal scripts in Python, Bash and Ruby
